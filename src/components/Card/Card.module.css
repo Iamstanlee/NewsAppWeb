@@ -1,0 +1,50 @@
+.card {
+  margin: auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+.titleblock {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+}
+.titleblock strong {
+  font-size: 18px;
+}
+.titleblock span {
+  color: gray;
+}
+.featuredImage {
+  height: 180px;
+  width: 100%;
+  object-fit: cover;
+}
+.card p {
+  padding: 2px 12px;
+  color: gray;
+  font-size: 16px;
+}
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+.actions a {
+  font-size: 15px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 450px) {
+  .card {
+    width: 98%;
+  }
+}

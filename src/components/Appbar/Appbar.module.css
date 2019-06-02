@@ -1,0 +1,45 @@
+.appbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  padding: 5px;
+  background-color: #fff;
+  z-index: 99;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.appbarHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 32px;
+}
+
+.searchbox {
+  margin-right: 32px;
+  display: flex;
+  align-items: center;
+}
+.searchbox input {
+  padding: 3px;
+  width: 250px;
+  margin-right: 5px;
+}
+
+@media (max-width: 450px) {
+  .appbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .appbarHeader,
+  .searchbox {
+    margin: 4px 0;
+  }
+  .searchbox input {
+    width: 200px;
+  }
+}
