@@ -46,7 +46,6 @@ class App extends Component {
       .then(res => res.json())
       .then(json => {
         this.setState({ feeds: json.articles, loaded: true });
-        console.log(json);
       })
       .catch(err => {
         this.setState({ error: true, errorMessage: err.message });
@@ -147,7 +146,9 @@ class App extends Component {
     if (loaded) {
       feed = feeds.map(article => {
         let featuredImage =
-          typeof article.urlToImage !== 'string' ? console.log('no image') : article.urlToImage;
+          typeof article.urlToImage !== 'string'
+            ? require('./assets/noimage.png')
+            : article.urlToImage;
         return (
           <Card
             key={article.title}

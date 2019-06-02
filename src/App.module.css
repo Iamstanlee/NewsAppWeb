@@ -64,7 +64,7 @@
   }
   .mobileCategoryList {
     display: initial;
-    position: absolute;
+    position: fixed;
     right: 25px;
     bottom: 100px;
     z-index: 9999;

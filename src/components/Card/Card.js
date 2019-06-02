@@ -10,7 +10,7 @@ const card = ({ title, time, featuredImage, description, url }) => {
         <strong>{title}</strong>
         <span>{time}</span>
       </div>
-      <img src={featuredImage} className={classes.featuredImage} alt="FeaturedImage" />
+      <img src={featuredImage} className={classes.featuredImage} alt={'Loading FeaturedImage...'} />
       <p>{description}</p>
       <div className={classes.actions}>
         <Icon source={icons.share} style={{ marginLeft: '10px' }} />
