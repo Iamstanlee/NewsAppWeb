@@ -2,7 +2,7 @@
   "name": "news",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://iamstanlee.github.io/NewsAppWeb",
+  "homepage": "http://iamstanlee.github.io/NewsAppWeb/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "moment": "^2.23.0",
