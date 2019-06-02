@@ -1,1 +1,1 @@
-## Powerred by newsapi.org[www.newsapi.org]
+## Powered by newsapi.org
