@@ -1,0 +1,13 @@
+@font-face {
+  src: url('./OperatorMonoBookRegular.otf');
+  font-family: 'Operator Mono';
+}
+@font-face {
+  src: url('./ProductSans-Regular.ttf');
+  font-family: 'Product Sans';
+}
+body {
+  font-family: 'Operator Mono', sans-serif;
+  margin: 0;
+  background-color: #f7f9fc;
+}

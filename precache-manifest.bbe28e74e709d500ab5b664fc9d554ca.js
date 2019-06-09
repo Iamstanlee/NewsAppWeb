@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/NewsAppWeb/static/js/runtime~main.1020108a.js"
   },
   {
-    "revision": "4ae57c79ce6877045613186caaa2bb23",
+    "revision": "ba89846774566ae31f0fcf0ef5383607",
     "url": "/NewsAppWeb/index.html"
   }
 ];
