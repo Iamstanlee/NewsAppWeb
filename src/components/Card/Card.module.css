@@ -1,10 +1,20 @@
+@font-face {
+  src: url('../../assets/font/Karla-Bold.ttf');
+  font-family: 'KarlaBold';
+}
+@font-face {
+  src: url('../../assets/font/Karla-Regular.ttf');
+  font-family: 'Karla';
+}
+* {
+  font-family: 'Karla';
+}
 .card {
   margin: auto;
   max-width: 500px;
   margin-bottom: 20px;
   background-color: #fff;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15);
-  border-radius: 8px;
+  border: 0.4px solid #dedede;
 }
 
 .titleblock {
@@ -14,7 +24,8 @@
   padding: 12px;
 }
 .titleblock strong {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: 'KarlaBold';
 }
 .titleblock span {
   color: gray;

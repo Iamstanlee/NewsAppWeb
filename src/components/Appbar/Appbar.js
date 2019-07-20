@@ -13,7 +13,7 @@ const appbar = props => {
   return (
     <div className={classes.appbar}>
       <div className={classes.appbarHeader}>
-        <span style={{ fontWeight: 'bolder' }}>NEWS</span>
+        <span>NEWS</span>
         <span>{props.category}</span>
       </div>
       <div className={classes.searchbox}>
